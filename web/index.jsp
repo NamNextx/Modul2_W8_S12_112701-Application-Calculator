@@ -15,13 +15,16 @@
         <h1>Simple calculator</h1>
         <label>First number</label> <br>
         <input type="number" name="first" > <br>
-        <select>
-          <option>Tinh tong</option>
-          <option>Tru</option>
+        <select name="select_pheptinh">
+          <option>Sum</option>
+          <option>Div</option>
+          <option>Mul</option>
+          <option>Sub</option>
         </select> <br>
         <label> Second number</label> <br>
         <input type="number" name="second">
         <input type="submit">
+
       </form>
   </body>
 </html>
